@@ -7,7 +7,7 @@ build_linux:
 
 build_windows:
 	env GOOS=windows GOARCH=amd64 go build -o shellmate.exe
-	tar -zcvf shellmate_linux_amd64_v${VERSION}.tar.gz shellmate.exe
+	tar -zcvf shellmate_windows_amd64_v${VERSION}.tar.gz shellmate.exe
 	rm shellmate.exe
 
 build_android:
