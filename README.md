@@ -8,7 +8,7 @@
 </p>
 
 ## Demo
-<img align="center" src="assets/demo.mp4">
+<img align="center" src="./assets/demo.gif">
 
 ## Getting Started
 - First create an account on [OpenAI](https://platform.openai.com/overview) and create a new [token key](https://platform.openai.com/account/api-keys).
