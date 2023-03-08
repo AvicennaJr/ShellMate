@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/github/go-mod/go-version/gomods/athens.svg">
 </p>
 
-Your very own terminal AI assistant
+<h2 align="center">Your very own terminal AI assistant</h2>
 
 ## Demo
 <img align="center" src="./assets/demo.gif">
