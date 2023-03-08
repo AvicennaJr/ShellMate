@@ -1,11 +1,12 @@
 <h1 align="center">Shell Mate 🤖</h1>
 <p align="center">
-    Your very own terminal AI assistant<br>
     <a href="https://github.com/AvicennaJr/ShellMate"><img alt="Shell Mate" src="https://img.shields.io/badge/Shell Mate-green"></a>
     <a href="https://github.com/AvicennaJr/ShellMate"><img alt="Shell Mate" src="https://img.shields.io/badge/platform-Linux | Windows | Android-green.svg"></a>
     <img src="https://img.shields.io/badge/Made%20with-Go-1f425f.svg">
     <img src="https://img.shields.io/github/go-mod/go-version/gomods/athens.svg">
 </p>
+
+Your very own terminal AI assistant
 
 ## Demo
 <img align="center" src="./assets/demo.gif">
