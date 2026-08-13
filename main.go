@@ -52,12 +52,13 @@ type (
 func main() {
 	fmt.Printf("\x1b[%dm%s\x1b[0m\n\n", 33, "Hi, I'm Shell Mate. How can I help you?")
 
-	token := os.Getenv("OPENAPI_TOKEN")
+	token := os.Getenv("OPENAI_API_KEY")
 	if token == "" {
-		fmt.Println("I could not find the 'OPENAPI_TOKEN' value on your environment.")
+		fmt.Println("I could not find the 'OPENAI_API_KEY' value on your environment.")
 		fmt.Printf("Please provide your token: ")
 		fmt.Scanln(&token)
 	}
+	token = strings.TrimSpace(token)
 
 	Start(os.Stdin, os.Stdout, token)
 }
